@@ -1,0 +1,3 @@
+# angular-image-gallery-with-lazy-load
+Sample for image gallery with lazy load. There are two icons appear on the image when the pointer comes on it. One of them is used for download, and other one is used for open the modal that shows related images bigger. The modal has forward and backward buttons that ensure to change image according to what you click. Also the gallery has lazy load feature. It means, images load when it needed. (This feature can be checked from developer console. At the begin, just the photos that fit into screen are loaded and other photos are took with showing on screen with scroll down.)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/image-gallery-with-lazy-load)
