@@ -1,0 +1,23 @@
+<div class="row">
+	<div class="col-sm-12">
+		<div style="margin: 0px;">
+			<mat-grid-list cols="3" rowHeight="3:1">
+				<mat-grid-tile *ngFor="let i of data" style="margin: 5px;margin-top: 10px;" (deferLoad)="i.show = true">
+					<div class="container">
+						<ng-container *ngIf="i.show">
+							<img src="{{i.small}}" alt="Avatar" class="image">
+							<div class="overlay">
+								<a href="#" class="iconS" title="User Profile" (click)="showModal($event, i.id)">
+									<i class="fa fa-search"></i>
+								</a>
+								<a href="#" class="iconD" title="User Profile" (click)="download($event, i.id)">
+									<i class="fa fa-arrow-down"></i>
+								</a>
+							</div>
+						</ng-container>
+					</div>
+				</mat-grid-tile>
+			</mat-grid-list>
+		</div>
+	</div>
+</div>

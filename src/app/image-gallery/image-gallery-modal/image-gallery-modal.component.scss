@@ -1,0 +1,50 @@
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.forward {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.forward:hover,
+.forward:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.backward {
+  position: absolute;
+  top: 50%;
+  right: 95%;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.backward:hover,
+.backward:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}

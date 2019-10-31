@@ -1,0 +1,68 @@
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #111111;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    opacity: 0.5;
+    height: 100%;
+  }
+  
+  .iconS {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .iconD {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .fa-user:hover {
+    color: #eee;
+  }
+
+  .images {
+    height:480px;
+    padding-top: 10px;
+}
+
+::ng-deep .mat-dialog-container {
+	box-shadow: none;
+	background-color: transparent;
+}
+
+::ng-deep .cdk-overlay-dark-backdrop {
+	background-color: rgba(19, 16, 16, 0.9);
+}
